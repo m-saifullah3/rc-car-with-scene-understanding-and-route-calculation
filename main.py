@@ -1,3 +1,4 @@
+import os
 import cv2
 import math
 import numpy as np
@@ -11,6 +12,9 @@ from transformers import pipeline
 # ----------------------------------------------------------------------
 # CONFIG
 # ----------------------------------------------------------------------
+# Create results folder if it doesn't exist
+os.makedirs("results", exist_ok=True)
+
 IMAGE_PATH = "images/test-image-1.jpg"
 DETECTION_OUTPUT = "results/detected.jpg"
 GRAPH_OUTPUT = "results/scene_graph.png"
