@@ -11,6 +11,11 @@ This repository is for code of an rc car with a camera mount which generates a r
 
 ```bash
 git clone https://github.com/m-saifullah3/rc-car-with-scene-understanding-and-route-calculation.git
+```
+
+### 2. Navigate to the directory
+
+```bash
 cd rc-car-with-scene-understanding-and-route-calculation
 ```
 
